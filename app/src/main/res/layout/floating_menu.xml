@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="#CC222222"
+    android:padding="16dp" android:elevation="16dp" android:gravity="center">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="⚡" android:textSize="28sp" android:textColor="#FFD700" />
+    <Button android:id="@+id/btn_action" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Hành động"
+        android:backgroundTint="#4CAF50" android:textColor="#FFFFFF" android:layout_marginBottom="8dp" />
+    <Button android:id="@+id/btn_close" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Đóng"
+        android:backgroundTint="#F44336" android:textColor="#FFFFFF" />
+</LinearLayout>
